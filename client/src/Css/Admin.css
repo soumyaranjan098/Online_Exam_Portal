@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.row{
+    width: 100vw; 
+    margin-left: 0% !important;
+}
+

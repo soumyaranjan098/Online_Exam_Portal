@@ -1,0 +1,61 @@
+.examdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,rgb(217, 241, 255),rgb(156, 255, 222)) ;
+    min-height: 100vh;
+}
+.allquestiondiv{
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    width: 70vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 8px gray;
+    
+}
+.allq h3{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.allq .leb {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.allq .leb:hover{
+    color: blueviolet;
+}
+
+.singlequestiondiv{
+    min-height: 40vh;
+    min-width: 50vw;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.singlequestiondiv h3{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.singlequestiondiv .lev{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.singlequestiondiv .lev:hover{
+    color: blueviolet;
+}
